@@ -1,0 +1,21 @@
+[GLOBAL]
+
+#
+# the inbox/outbox/failure folders
+#
+INBOX={'PROBA':'/home/gilles/test', 'OCEANSAT':'/home/gilles/test1'}
+INBOX_EVENTS={'PROBA':['IN_CLOSE_WRITE'], 'OCEANSAT':['IN_CLOSE_WRITE']}
+
+#
+# the exclusions: regex, | separated
+#
+EXCLUSIONS={'PROBA':'^.*.part', 'OCEANSAT':'^.*.part'}
+
+#
+# the inclusions: regex, | separated
+#
+INCLUSIONS={'PROBA':'^.*.xml|^.*.jpg|^.*.bmp', 'OCEANSAT':'^.*.xml|^.*.jpg|^.*.bmp'}
+
+
+#
+DEBUG=False

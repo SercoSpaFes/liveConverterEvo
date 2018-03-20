@@ -1,0 +1,17 @@
+
+The evolution of the first live converter will introduce the following requirements:
+
+
+
+- will be modular/evolutive: a new mission having similar characheteristics can be added by creating a new configuration.
+- can use several circulation flows, like:
+   - circulate incomming product to one (or more) destination(s)
+   - convert and circulate incomming product to one (or more) destination(s)
+   - agregate and circulate incomming product to one (or more) destination(s)
+   - agregate, convert and circulate incomming product to one (or more) destination(s)
+- will have detailled status of the inboxes. What is currently pending, what has been done
+- will have status and history stored in a database
+- will have reporting capabilities (as what the 'FES converter tool' provide at this time)
+- will have notification capabilities (email, realtime, slack, other...)
+- can have any type of 'converter' plugged in by use of wrapper class
+- will be visible and manageable from the 'FES converter tool' web application

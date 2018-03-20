@@ -1,0 +1,3 @@
+[GLOBAL]
+configurationFile=/home/gilles/javaConverter/config_oceansat.props
+package=eoSip_converter.ingester_Irs1c_1d
